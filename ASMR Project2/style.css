@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    line-height: 1.6;
+    padding: 20px;
+    background-image: url(images/macaronbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    padding: 10px;
+}
+
+article{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.recipe-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ingredients ul, .instructions ol{
+    margin: 20px 0;
+}
+
+.ingredients li, .instructions li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.footer{
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.title{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.title:hover{
+    animation: pulse;
+    animation-duration: 1.5s;
+}
+
+@keyframes pulse{
+    0% {transform: scale(1);}
+    50%{transform: scale(1.05);}
+    100%{transform: scale(1);}
+}
