@@ -48,7 +48,6 @@
 
 .layer1:hover h3{
     bottom: 32%;
-    opacity: 1;
     font-size: 40px;
 }
 
@@ -82,7 +81,6 @@
 
 .layer2:hover h3{
     bottom: 38%;
-    opacity: 1;
     font-size: 40px;
 }
 
@@ -116,7 +114,6 @@
 
 .layer3:hover h3{
     bottom: 35%;
-    opacity: 1;
     font-size: 40px;
 }
 
