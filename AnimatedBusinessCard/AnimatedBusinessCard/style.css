@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    background-color: rgb(244, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container{
+    perspective: 1000px;
+}
+
+.card{
+    width: 400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: rotateY(15deg);
+}
+
+.avatar{
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+
+.avatar:hover{
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgba(244, 61, 6, 0.5);
+}
+.info{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    margin: 10px 0;
+}
+
+p{
+    color: brown;
+    font-size: 0.9em;
+}
+
+.social-icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons i{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.social-icons a{
+    transition: 0.5s;
+}
+
+.social-icons a:hover{
+    transform: scale(1.15);
+}
+
+.fa-youtube{
+    color: red;
+}
